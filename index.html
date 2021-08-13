@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <title>Word Counter</title>
+    </head>
+    <body>
+
+        <header>
+            <h1>Word counter</h1>
+        </header>
+        <main>
+            <section class="content">
+                 <form id="content-form">
+                    <textarea id="content" required></textarea><br />
+                    <button type = "submit" id="count" class="btn btn-submit">Count</button>
+                    <button type = "reset" id="reset" class="btn btn-reset">Reset</button>
+                </form>
+
+                <h3 id="result"><h3></h3>
+            </section>
+        </main>
+
+        <footer>
+      <p>
+        This weather app was created by
+        <a href="https://www.linkedin.com/in/winpeed/" target="_blank"
+          >Praise Obende</a
+        >
+        using
+        <a href="https://openweathermap.org/" target="_blank"
+          >openweather.org API</a
+        >
+        and is open-sourced on
+        <a
+          href="https://github.com/winpeed/Vanilla-JS-Weather-App"
+          target="_blank"
+        >
+          GitHub</a
+        >
+      </p>
+    </footer>
+       
+        <script src="script.js"></script>
+    </body>
+</html>

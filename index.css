@@ -1,0 +1,88 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  font-size: 14px;
+  background-color: #2ba585;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 0em 0.6em;
+}
+
+header h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+textarea {
+  min-height: 150px;
+  width: 270px;
+  border-radius: 10px;
+  border: 1px solid white;
+  outline: none;
+  padding: 1em;
+  margin-bottom: 2em;
+  font-weight: 600;
+}
+
+.content,
+header {
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0.7em 1.6em;
+  outline: 0;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0.5em 0.8em;
+}
+
+.btn-submit {
+  background-color: #fff363;
+  color: #333;
+}
+
+.btn-reset {
+  background-color: rgb(222 64 64);
+  color: white;
+}
+
+.content h3 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background: #14146d;
+  padding: 1.1em 1em;
+}
+
+footer p {
+  max-width: 750px;
+  margin: 0 auto;
+  color: white;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+p a {
+  color: yellow;
+}
